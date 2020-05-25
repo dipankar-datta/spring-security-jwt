@@ -2,14 +2,12 @@ package com.dipankar.springsecurityjwt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 
-@EnableWebSecurity
 @SpringBootApplication
-public class SpringSecurityJwtApplication {
+public class Bootstrap {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringSecurityJwtApplication.class, args);
+		SpringApplication.run(com.dipankar.springsecurityjwt.Bootstrap.class, args);
 	}
 
 }

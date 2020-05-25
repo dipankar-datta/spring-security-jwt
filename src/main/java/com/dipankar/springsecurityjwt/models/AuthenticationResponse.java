@@ -1,14 +1,10 @@
 package com.dipankar.springsecurityjwt.models;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor @Getter
 public class AuthenticationResponse {
 
-    private final String token;
-
-    public AuthenticationResponse(String token) {
-        this.token = token;
-    }
-
-    public String getToken() {
-        return token;
-    }
+    private final String jwtToken;
 }
